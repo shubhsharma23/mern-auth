@@ -1,0 +1,1 @@
+this is just a normal auth app made by me using mern technologies which includes login, register, reset password and home page.

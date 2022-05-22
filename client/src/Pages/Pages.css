@@ -1,0 +1,154 @@
+.content {
+  background-color: #f1f1f1;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+a {
+  text-decoration: none;
+}
+
+label {
+  font-family: "Raleway", sans-serif;
+  font-size: 11pt;
+}
+
+.forgot-pass {
+  color: #2dbd6e;
+  font-family: "Raleway", sans-serif;
+  font-size: 10pt;
+  margin-top: 3px;
+  text-align: right;
+}
+
+.card {
+  background: #fbfbfb;
+  border-radius: 8px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+  /* height: 410px; */
+  margin: 6rem auto 8.1rem auto;
+  width: 329px;
+}
+
+.card-content {
+  padding: 12px 44px;
+}
+
+.card-title {
+  font-family: "Raleway Thin", sans-serif;
+  letter-spacing: 4px;
+  padding-bottom: 23px;
+  padding-top: 13px;
+  text-align: center;
+}
+
+.ask {
+  color: #2dbd6e;
+  font-family: "Raleway", sans-serif;
+  font-size: 10pt;
+  margin-top: 16px;
+  text-align: center;
+}
+
+.submit-btn {
+  background: -webkit-linear-gradient(right, #a6f77b, #2dbd6e), #2dbd6e;
+  border: none;
+  border-radius: 21px;
+  /* box-shadow: 0px 1px 8px #24c64f; */
+  cursor: pointer;
+  color: white;
+  font-family: "Raleway SemiBold", sans-serif;
+  height: 42.3px;
+  margin: 0 auto;
+  margin-top: 50px;
+  transition: 0.25s;
+  width: 153px;
+  text-align: center;
+}
+
+.submit-btn:hover {
+  box-shadow: 0px 1px 18px #24c64f;
+}
+
+.submit-btn:disabled,
+.submit-btn[disabled] {
+  /* background: grey; */
+  box-shadow: none;
+  cursor: not-allowed;
+}
+
+.form {
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-border {
+  background: -webkit-linear-gradient(right, #a6f77b, #2ec06f);
+  height: 1px;
+  width: 100%;
+}
+
+.input-content1 {
+  background: #fbfbfb;
+  border: none;
+  outline: none;
+  padding-top: 14px;
+}
+
+.input-content2 {
+  display: block;
+  height: 35px;
+  background-color: rgba(255, 255, 255, 0.07);
+  border: 1px solid darkgrey;
+  background: honeydew;
+  border-radius: 3px;
+  padding: 0 10px;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 300;
+  outline: none;
+  width: 90%;
+}
+
+.input-content2:focus {
+  border: 1px solid #24c64f;
+}
+
+.underline-title {
+  background: -webkit-linear-gradient(right, #a6f77b, #2ec06f);
+  height: 2px;
+  margin: -1.1rem auto 0 auto;
+  width: 89px;
+}
+
+.input-label {
+  padding-top: 12px;
+}
+
+.eye {
+  cursor: pointer;
+  float: right;
+  margin-top: 15px;
+}
+
+#login-eye {
+  margin-right: 10px;
+  margin-top: -15px;
+}
+
+.error {
+  margin: 1px;
+  color: indianred;
+  font-size: 14px;
+}
+
+.msg {
+  margin: 1px;
+  color: rgb(3, 144, 238);
+  font-size: 14px;
+}
